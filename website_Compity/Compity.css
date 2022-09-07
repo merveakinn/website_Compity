@@ -1,0 +1,70 @@
+.resimkonum {
+    position: absolute;
+    right: 120px;
+    top: 120px;
+}
+
+.compity {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.compity a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.compity a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+@media screen and (max-width: 500px) {
+    .compity a {
+        float: none;
+        display: block;
+    }
+}
+
+#menu a {
+    position: absolute;
+    left: -150px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 170px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#menu a:hover {
+    left: 0;
+}
+
+#about {
+    top: 150px;
+    background-color: #04AA6D;
+}
+
+#etkinlikler {
+    top: 210px;
+    background-color: #2196F3;
+}
+
+#sosyalmedya {
+    top: 270px;
+    background-color: #f44336;
+}
+
+#iletisim {
+    top: 330px;
+    background-color: #555
+}
